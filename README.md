@@ -13,6 +13,14 @@ This repo contains the Solo firmware, including implementations of FIDO2 and U2F
 For development no hardware is needed, Solo also runs as a standalone application for Windows, Linux, and Mac OSX. If you like (or want to learn) hardware instead, you can run Solo on the NUCLEO-L432KC development board, or we make Solo for Hacker, an unlocked version of Solo that lets you customize its firmware.
 
 
+# Customization for Personal Usage
+
+Nucleo32 board based on the STM32L432 microcontroller to have the following USB VID/PID while running a modified firmware.
+
+|    VID    |    DFU    |    FIDO2    |
+|    :-    |    -:    |    -:    |
+|1209 | DB01 | DB02 |
+
 # Security
 
 Solo is based on the STM32L432 microcontroller. It offers the following security features.
